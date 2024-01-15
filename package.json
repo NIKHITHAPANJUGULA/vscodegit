@@ -1,0 +1,23 @@
+{
+  "name": "cypresslearning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "Framewith": "npx cypress run --spec .\\cypress\\e2e\\framewithplugin.spec.cy.js --browser chrome --headed --record --key 0294337e-8176-4864-a96c-19e45ff20a1f",
+    "Executeoncloud": "npx cypress run --record --key 0de59274-a89a-410c-a f7-d2f7f3d798aa --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^13.6.2",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
+  },
+  "description": ""
+}
